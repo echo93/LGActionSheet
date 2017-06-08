@@ -6,8 +6,11 @@
 
 标题,子标题字体颜色都可以自定义,也可以在.m文件中直接修改默认值
 - (void)buttonClicK:(UIButton *)button{
+
     // 创建
+    
     LGActionSheet *actionSheet = [[LGActionSheet alloc] initWithTitle:nil subTitles:@[@"加为好友",@"拉黑",@"举报",@"拉黑并举报",@"删除"] delegate:self];
+    
     // 显示
     [actionSheet show];
     
@@ -15,7 +18,10 @@
 
 
 - (void)actionSheet:(LGActionSheet *)actionSheet clickedAtIndex:(NSInteger)buttonIndex{
+    
     // 做想做的事
+    
     NSString *title = actionSheet.subTitles[buttonIndex];
-    NSLog(@"%@",title);
+   
+   NSLog(@"%@",title);
 }
