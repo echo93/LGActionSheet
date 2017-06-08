@@ -1,8 +1,9 @@
 # LGActionSheet
-封装的一个简单的ActionSheet,类似微信的那种 旨在用最简单的方法,完成开发任务
+之前的项目里封装的一个简单的ActionSheet,类似微信的那种, 终于有空把他弄到GitHub上
 
-把三个文件拖进项目里,并引入 LGActionSheet.h头文件, 
-注: UIDefines.h这个文件几乎项目中都要类似的,可以用自己项目里的替换 
+把三个文件拖进项目里,并引入 LGActionSheet.h头文件
+
+注: UIDefines.h这个文件几乎项目中都要类似的,可以用自己项目里的替换
 // 两行代码搞定
 -(void)buttonClicK:(UIButton *)button{ 
   // 创建 
